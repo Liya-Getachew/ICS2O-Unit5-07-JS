@@ -19,12 +19,13 @@ if (navigator.serviceWorker) {
  * This function counts up from 1 to the user's chosen value.
  */
 function myButtonClicked() {
-  const num = parseInt(document.getElementById("integer").value);
-  let sum = 0;
+  const num = parseInt(document.getElementById("integer").value)
+  let sum = 0
 
-  document.getElementById("formula").innerHTML = "Sn = " + num + "/2(" + num + "+1)"
+  document.getElementById("formula").innerHTML =
+    "Sn = " + num + "/2(" + num + "+1)"
 
-  for (let counter = 1; counter < num+1; counter++) {
+  for (let counter = 1; counter < num + 1; counter++) {
     sum += counter
   }
 
