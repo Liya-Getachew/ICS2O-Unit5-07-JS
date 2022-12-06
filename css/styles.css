@@ -22,7 +22,7 @@
 }
 
 body {
-  background-color: rgb(154 211 232);
+  background-color: rgb(235, 225, 224);
 }
 
 p {
@@ -36,4 +36,17 @@ p {
 img {
   float: right;
   margin-right: 15px;
+}
+
+#sum {
+  padding-top: 15px;
+  font-size: 130%;
+}
+
+#formula {
+  font-size: 130%;
+}
+
+h3 {
+  color: #be6a5b;
 }
